@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Care360 - Your one-stop solution for seamless healthcare access">
+    <title>Care360 - Healthcare Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <img src="logo.png" alt="Care360 Logo" class="logo">
+                <h1>Care360</h1>
+            </div>
+            <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="#" aria-current="page"><i class="fas fa-home" aria-hidden="true"></i> Home</a></li>
+                    <li><a href="#services"><i class="fas fa-cogs" aria-hidden="true"></i> Services</a></li>
+                    <li><a href="#doctor-portal"><i class="fas fa-user-md" aria-hidden="true"></i> Doctor Portal</a></li>
+                    <li><a href="#patient-portal"><i class="fas fa-user-injured" aria-hidden="true"></i> Patient Portal</a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope" aria-hidden="true"></i> Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Welcome to Care360</h2>
+                <p>Your one-stop solution for seamless healthcare access</p>
+                <a href="#appointment" class="btn btn-primary">Book Now</a>
+            </div>
+        </section>
+
+        <section id="appointment" class="appointment">
+            <div class="container">
+                <h2>Schedule Your Appointment Online</h2>
+                <form class="booking" action="#" method="post">
+                    <div class="form-group">
+                        <label for="doctor-search" class="sr-only">Search for Doctor or Speciality</label>
+                        <input type="text" id="doctor-search" placeholder="Search for Doctor or Speciality" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="location" class="sr-only">Select Location</label>
+                        <input type="text" id="location" placeholder="Select Location" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Book an Appointment</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2>Features of Care360</h2>
+                <div class="service-boxes">
+                    <div class="service">
+                        <i class="fas fa-hospital" aria-hidden="true"></i>
+                        <h3>Facility & Service Discovery</h3>
+                        <p>Find healthcare facilities and services near you</p>
+                    </div>
+                    <div class="service">
+                        <i class="fas fa-bed" aria-hidden="true"></i>
+                        <h3>Real-time Bed Availability</h3>
+                        <p>Check bed availability in hospitals instantly</p>
+                    </div>
+                    <div class="service">
+                        <i class="fas fa-pills" aria-hidden="true"></i>
+                        <h3>Medicine Availability</h3>
+                        <p>Track medication stock in local pharmacies</p>
+                    </div>
+                    <div class="service">
+                        <i class="fas fa-prescription-bottle-alt" aria-hidden="true"></i>
+                        <h3>Integrated e-Pharmacy</h3>
+                        <p>Order medications online with doorstep delivery</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="specialties" class="specialties">
+            <div class="container">
+                <h2>Specialties & Procedures</h2>
+                <div class="specialty-box">
+                    <a href="#" class="specialty">Cancer Care / Oncology</a>
+                    <a href="#" class="specialty">Cardiac Sciences</a>
+                    <a href="#" class="specialty">Orthopaedics & Joint Replacement</a>
+                    <a href="#" class="specialty">Gastroenterology</a>
+                    <a href="#" class="specialty">Neurosciences</a>
+                    <a href="#" class="specialty">Urology</a>
+                    <a href="#" class="specialty">Eye/ Ophthalmology</a>
+                    <a href="#" class="specialty">General Surgery</a>
+                    <a href="#" class="specialty">General Medicine</a>
+                    <a href="#" class="specialty">Obstetrics and Gynaecology</a>
+                    <a href="#" class="specialty">Dermatology</a>
+                    <a href="#" class="specialty">ENT (Ear, Nose, Throat)</a>
+                    <a href="#" class="specialty">Psychiatry</a>
+                    <a href="#" class="specialty">Pediatrics</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logo.png" alt="Care360 Logo" class="logo">
+                    <h3>Care360</h3>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#specialties">Specialties</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact" id="contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-envelope"></i> info@care360.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Care360. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        // Mobile menu toggle
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            document.querySelector('nav').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
