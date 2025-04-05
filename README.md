@@ -13,9 +13,13 @@ Our solution Care360 aims to bridge these gaps through a centralized, real-time 
 When users open the app, they can either log in or, if they are first-time users, sign up. After logging in, they are directed to the home page, where they can:
 
 Book an online appointment
+
 Check real-time hospital bed availability in nearby hospitals
+
 Explore hospital facilities and services
+
 Medicine Availability Tracking
+
 Purchase medicines online through the E-pharmacy
 
 
